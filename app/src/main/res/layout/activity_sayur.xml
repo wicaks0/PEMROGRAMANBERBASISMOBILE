@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sayur">
+
+
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama ilmiah sayur"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:id="@+id/gbayam"
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:src="@drawable/bayam"
+        app:layout_constraintTop_toBottomOf="@id/judul"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        />
+
+    <TextView
+        android:id="@+id/tvbayam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sayur Bayam"
+        app:layout_constraintStart_toEndOf="@id/gbayam"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="68dp"
+        android:layout_marginStart="9dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama ilmiah : Amaranthus"
+        app:layout_constraintStart_toEndOf="@id/gbayam"
+        app:layout_constraintTop_toTopOf="@id/tvbayam"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="9dp"/>
+
+    <ImageView
+        android:id="@+id/gtauge"
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:src="@drawable/tauge"
+        app:layout_constraintTop_toBottomOf="@id/gbayam"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        />
+
+    <TextView
+        android:id="@+id/tvtauge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tauge"
+        app:layout_constraintStart_toEndOf="@id/gtauge"
+        app:layout_constraintTop_toTopOf="@id/gtauge"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="9dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:text="Nama ilmiah : Flammulina Velutipes"
+        app:layout_constraintStart_toEndOf="@id/gtauge"
+        app:layout_constraintTop_toTopOf="@id/gtauge" />
+
+    <ImageView
+        android:id="@+id/gwortel"
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:src="@drawable/wortel"
+        app:layout_constraintTop_toBottomOf="@id/gtauge"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        />
+
+    <TextView
+        android:id="@+id/tvwortel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wortel"
+        app:layout_constraintStart_toEndOf="@id/gwortel"
+        app:layout_constraintTop_toTopOf="@id/gwortel"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="9dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:text="Nama ilmiah : Daucus"
+        app:layout_constraintStart_toEndOf="@id/gwortel"
+        app:layout_constraintTop_toTopOf="@id/gwortel" />
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".buah">
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama ilmiah Buah"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:id="@+id/gaple"
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:src="@drawable/aple"
+        app:layout_constraintTop_toBottomOf="@id/judul"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        />
+
+    <TextView
+        android:id="@+id/tvaple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="aple"
+        app:layout_constraintStart_toEndOf="@id/gaple"
+        app:layout_constraintTop_toTopOf="@id/gaple"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="9dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama ilmiah : Malus domestica"
+        app:layout_constraintStart_toEndOf="@id/gaple"
+        app:layout_constraintTop_toTopOf="@id/tvaple"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="9dp"/>
+
+    <ImageView
+        android:id="@+id/gpir"
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:src="@drawable/pir"
+        app:layout_constraintTop_toBottomOf="@id/gaple"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        />
+
+    <TextView
+        android:id="@+id/tvpir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pir"
+        app:layout_constraintStart_toEndOf="@id/gpir"
+        app:layout_constraintTop_toTopOf="@id/gpir"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="9dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:text="Nama ilmiah : Pyrus"
+        app:layout_constraintStart_toEndOf="@id/gpir"
+        app:layout_constraintTop_toTopOf="@id/gpir" />
+
+    <ImageView
+        android:id="@+id/gpisang"
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:src="@drawable/pisang"
+        app:layout_constraintTop_toBottomOf="@id/gpir"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        />
+
+    <TextView
+        android:id="@+id/tvpisang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pisang"
+        app:layout_constraintStart_toEndOf="@id/gpisang"
+        app:layout_constraintTop_toTopOf="@id/gpisang"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="9dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:text="Nama ilmiah : Musa"
+        app:layout_constraintStart_toEndOf="@id/gpisang"
+        app:layout_constraintTop_toTopOf="@id/gpisang" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
